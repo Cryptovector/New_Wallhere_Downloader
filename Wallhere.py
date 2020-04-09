@@ -268,7 +268,7 @@ def Wait_ImageDownload(driver): #Auth
 				Filename = None
 				File_ID = driver.current_url.split("-")[-1].split(".")[0]
 
-				for root, dirs, files in os.walk(Download_Folder): #Installs all Addons in Folder
+				for root, dirs, files in os.walk(Download_Folder):
 					print(len(files), ' Files in Root Folder')
 					for file in files:
 						try:
