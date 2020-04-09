@@ -165,7 +165,7 @@ def Download_Single_Full_Image(Imgurl, driver): #Needs Auth (Login)
 				except:
 					try:
 						driver.find_element_by_xpath(Imgfullxpath)
-						return
+						return False
 					except:
 						pass
 				print("Wait for site loading ...")		
