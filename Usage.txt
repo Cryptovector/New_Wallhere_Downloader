@@ -1,0 +1,19 @@
+python Wallhere.py -I <-- You must Init Script before usage ... Altv Download Geckodriver & [Optional] Ublock xpi and place it in this Folder ...
+
+python Wallhere.py -l -i -d "D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper" -u "https://wallhere.com/de/wallpaper/94090" -us **** -pa ****
+python Wallhere.py -l -k -d "D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper" -u "https://wallhere.com/de/wallpapers?q=Fullmetal+alchemist" -us **** -pa ****
+python Wallhere.py -i -d "D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper" -u "https://wallhere.com/de/wallpaper/94090"
+python Wallhere.py -k -d "D:\Desktop\NEWMEDIA\Tools\Python\Developing\Python_Wallhere\Wallpaper" -u "https://wallhere.com/de/wallpapers?q=Fullmetal+alchemist"
+
+-l [--Login]Login (Not requiert only for better Resolution) --> -us Username -pa Password
+-K [--Kill] Kill all Firefox and Geckodriver Processes
+-I [--Init] Init Script (Download and extract Geckodriver & Ublockorigin ...)
+-H [--Noheadless] Start Firefox in non-headless Mode
+
+-i [--Image] Download one single image
+-k [--Keyword] Download every image result in Keyword search
+
+-u [--Url] Image or Keyword Url
+-d [--destination] Download folder
+
+Last Tested 7.4.2020 (Day, Month, Year)
